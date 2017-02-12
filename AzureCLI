@@ -1,2 +1,20 @@
 azure group export <RG Name> <directory to drop json file in>
 azure group export blahrg ~/azurenotes/
+
+azure vm image list eastus RedHat RHEL
+info:    Executing command vm image list
+- Getting virtual machine image skus (Publisher:"RedHat" Offer:"RHEL" Location:"+astus")
+data:    Publisher  Offer  Sku  OS     Version       Location  Urn                         
+data:    ---------  -----  ---  -----  ------------  --------  ----------------------------
+data:    RedHat     RHEL   6.7  Linux  6.7.20161104  eastus    RedHat:RHEL:6.7:6.7.20161104
+data:    RedHat     RHEL   6.7  Linux  6.7.20161212  eastus    RedHat:RHEL:6.7:6.7.20161212
+data:    RedHat     RHEL   6.8  Linux  6.8.20160921  eastus    RedHat:RHEL:6.8:6.8.20160921
+data:    RedHat     RHEL   6.8  Linux  6.8.20161014  eastus    RedHat:RHEL:6.8:6.8.20161014
+data:    RedHat     RHEL   6.8  Linux  6.8.20161028  eastus    RedHat:RHEL:6.8:6.8.20161028
+data:    RedHat     RHEL   6.8  Linux  6.8.20161213  eastus    RedHat:RHEL:6.8:6.8.20161213
+data:    RedHat     RHEL   7.2  Linux  7.2.20160921  eastus    RedHat:RHEL:7.2:7.2.20160921
+data:    RedHat     RHEL   7.2  Linux  7.2.20161026  eastus    RedHat:RHEL:7.2:7.2.20161026
+data:    RedHat     RHEL   7.2  Linux  7.2.20170131  eastus    RedHat:RHEL:7.2:7.2.20170131
+data:    RedHat     RHEL   7.3  Linux  7.3.20161104  eastus    RedHat:RHEL:7.3:7.3.20161104
+data:    RedHat     RHEL   7.3  Linux  7.3.20170201  eastus    RedHat:RHEL:7.3:7.3.20170201
+info:    vm image list command OK

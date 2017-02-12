@@ -1,0 +1,2 @@
+azure group export <RG Name> <directory to drop json file in>
+azure group export blahrg ~/azurenotes/
